@@ -1,0 +1,19 @@
+@import './variabels.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px "Helvetica Neue", Arial, Helvetica;
+  color: $color-primary;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

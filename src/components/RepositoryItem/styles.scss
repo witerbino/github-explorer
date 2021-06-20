@@ -1,0 +1,27 @@
+.repository-item {
+  margin-bottom: 20px;
+  padding: 10px;
+
+  border: 1px solid #f4f4f4;
+  border-radius: 3px;
+
+  transition: all .1s ease-in;
+
+  &:hover {
+    cursor: pointer;
+    border-color: #ccc;
+  }
+
+  p {
+    font-size: 14px;
+    color: #444;
+    margin-top: 8px;
+  }
+
+  a {
+    display: inline-block;
+    margin-top: 16px;
+    text-decoration: none;
+    color: #8257e6;
+  }
+}
